@@ -437,6 +437,9 @@ a {
   scale: 1.2;
 }
 
+footer {
+  padding-top: 300px;
+}
 footer p {
   font-size: 25px;
   color: purple;
@@ -598,12 +601,11 @@ footer p {
 }
 
 .services {
-  margin-top: 300px;
+  margin-top: 290px;
 }
 
 .services__descr {
   max-width: 423px;
-  margin-top: 14px;
   font-size: 16px;
   line-height: 110%;
 }
