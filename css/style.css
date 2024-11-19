@@ -892,6 +892,10 @@ a {
   .footer__logo-img {
     margin-bottom: 30px;
   }
+  .footer .social__link {
+    width: 24px;
+    height: 24px;
+  }
 }
 @media (max-width: 900px) {
   .footer {
@@ -1332,7 +1336,7 @@ a {
   left: 0;
   height: 1px;
   width: 97px;
-  background-color: var(--dark);
+  background-color: transparent;
 }
 
 .services__list-item:hover .services__linc-detailed {
@@ -1440,6 +1444,16 @@ a {
         -ms-flex-order: 0;
             order: 0;
     height: 240px;
+  }
+  .services__item-linc {
+    padding: 18px 18px;
+  }
+  .services__linc-detailed {
+    font-size: 14px;
+    padding-right: 38px;
+  }
+  .services__linc-detailed::before {
+    width: 85px;
   }
 }
 .advantages {
@@ -1810,6 +1824,12 @@ a {
         -ms-flex: 0 0 440px;
             flex: 0 0 440px;
   }
+  .reviews-item {
+    padding: 28px 30px 30px 26px;
+  }
+  .reviews-item__link {
+    right: 22px;
+  }
   .reviews-item__name {
     max-width: 132px;
   }
@@ -1843,6 +1863,9 @@ a {
   .reviews__slider-center {
     width: calc(100% - 40px);
   }
+  .reviews-item__review {
+    font-size: 14px;
+  }
   .swiper-reviews {
     overflow: hidden;
   }
@@ -1858,6 +1881,10 @@ a {
   }
 }
 @media (max-width: 1190px) {
+  .reviews-item__link {
+    font-size: 14px;
+    top: 23px;
+  }
   .reviews__slider-wrap {
     height: 396px;
   }
@@ -1867,6 +1894,18 @@ a {
   }
   .reviews__descr {
     margin-bottom: 100px;
+  }
+  .reviews-item {
+    padding: 23px 30px 24px 22px;
+  }
+  .reviews-item__link {
+    right: 20px;
+  }
+  .reviews-item__name {
+    font-size: 18px;
+  }
+  .reviews-item__review {
+    max-width: 90%;
   }
 }
 @media (max-width: 900px) {
@@ -1882,6 +1921,19 @@ a {
   }
   .reviews__descr {
     margin-bottom: 60px;
+  }
+  .reviews-item {
+    padding: 21px 30px 20px 16px;
+  }
+  .reviews-item__link {
+    right: 17px;
+    top: 21px;
+  }
+  .reviews-item__name {
+    font-size: 16px;
+  }
+  .reviews-item__review {
+    max-width: 100%;
   }
 }
 .system {
