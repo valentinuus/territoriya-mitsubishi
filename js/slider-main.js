@@ -17,8 +17,8 @@ const reviewsSlider = document.querySelector('.swiper-reviews');
 
 let reviewsSwiper = new Swiper(reviewsSlider, {
 	loop: true,
-	slidesPerView: 7,
-	spaceBetween: 14,
+	slidesPerView: 1,
+	spaceBetween: 0,
 	wrapperClass: 'swiper-reviews__wrapper',
 	slideClass: 'swiper-reviews__slide',
 	navigation: {
@@ -27,6 +27,20 @@ let reviewsSwiper = new Swiper(reviewsSlider, {
 	},
 	pagination: {
 		el: ".swiper-pagination",
+	},
+	breakpoints: {
+		900: {
+			slidesPerView: 2,
+			spaceBetween: 12,
+		},
+		1190: {
+			slidesPerView: 3,
+			spaceBetween: 14,
+		},
+		1290: {
+			slidesPerView: 5,
+			spaceBetween: 16,
+		}
 	},
 });
 

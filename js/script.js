@@ -58,3 +58,28 @@ testWebP(function (support) {
 // testWebP
 
 
+const burger = document?.querySelector('[data-burger]');
+const closeMenu = document?.querySelector('[data-close]');
+const nav = document?.querySelector('[data-nav]');
+const navItems = nav?.querySelectorAll('a');
+const body = document.body;
+
+burger?.addEventListener('click', () => {
+	body.classList.toggle('stop-scroll');
+	burger?.classList.toggle('burger--active');
+	nav?.classList.toggle('nav--visible');
+});
+
+closeMenu?.addEventListener('click', () =>{
+	body.classList.remove('stop-scroll');
+	nav?.classList.remove('nav--visible');
+	burger?.classList.remove('burger--active');
+});
+
+navItems.forEach(el => {
+	el.addEventListener('click', () => {
+		body.classList.remove('stop-scroll');
+		burger?.classList.remove('burger--active');
+		nav?.classList.remove('nav--visible');
+	});
+});

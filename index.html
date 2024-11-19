@@ -13,62 +13,80 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header__wrap"><a class="header__logo" href="/index.html"><img class="header__logo-img" src="img/logo/logo.svg" width="226px" height="45px" alt="логотип Территория mitsubishi"></a>
-          <nav class="header__nav nav">
-            <ul class="nav__list">
-              <li class="nav__list-item"><a class="nav__list-link" href="#">ТО Регламент</a></li>
-              <li class="nav__list-item"><a class="nav__list-link" href="#">Услуги</a></li>
-              <li class="nav__list-item"><a class="nav__list-link" href="#">Прайс</a></li>
-              <li class="nav__list-item"><a class="nav__list-link" href="#">Акции</a></li>
-              <li class="nav__list-item"><a class="nav__list-link" href="#">Блог</a></li>
-              <li class="nav__list-item"><a class="nav__list-link" href="#">Контакты</a></li>
-              <li class="nav__list-item"><a class="nav__list-link" href="#">О нас</a></li>
-            </ul>
-          </nav>
-          <div class="header__contacts"> 
-            <div class="header__contacts-address">ул. Шоссейная улица, 1Г</div>
-            <div class="header__contacts-phone"> <a href="tel:+79219048150">+7 (921) 904-81-50</a></div>
-            <div class="header__social social"><a class="social__link" href="https://vk.com/lancer_service" target="_blank"> <img src="img/svgicons/vk.svg" alt="вконтакте"></a><a class="social__link" href="#" target="_blank"> <img src="img/svgicons/whatsapp.svg" alt="whatsapp"></a><a class="social__link" href="#" target="_blank"> <img src="img/svgicons/telegram.svg" alt="телеграмм"></a></div>
+        <div class="header__wrap"><a class="header__logo" href="/index.html"><img class="header__logo-img" src="img/logo/logo.svg" alt="логотип Территория mitsubishi"></a>
+          <div class="header__nav-wrap" data-nav>
+            <nav class="header__navnav nav">
+              <ul class="nav__list">
+                <li class="nav__list-item"><a class="nav__list-link" href="#">ТО Регламент</a></li>
+                <li class="nav__list-item"><a class="nav__list-link" href="#">Услуги</a></li>
+                <li class="nav__list-item"><a class="nav__list-link" href="#">Прайс</a></li>
+                <li class="nav__list-item"><a class="nav__list-link" href="#">Акции</a></li>
+                <li class="nav__list-item"><a class="nav__list-link" href="#">Блог</a></li>
+                <li class="nav__list-item"><a class="nav__list-link" href="#">Контакты</a></li>
+                <li class="nav__list-item"><a class="nav__list-link" href="#">О нас</a></li>
+              </ul>
+            </nav>
+            <div class="header__contacts">
+              <div class="header__contacts-address">ул. Шоссейная улица, 1Г</div>
+              <div class="header__contacts-phone"> <a href="tel:+79219048150">+7 (921) 904-81-50</a></div>
+              <div class="header__social social"><a class="social__link" href="https://vk.com/lancer_service" target="_blank"> 
+                  <div class="social__img header__social-img_vk"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.9074 6.06977C23.0655 5.53475 22.9074 5.14084 22.15 5.14084H19.6493C19.013 5.14084 18.7195 5.48086 18.5604 5.85615C18.5604 5.85615 17.2887 8.98786 15.4872 11.0221C14.9042 11.612 14.6394 11.7991 14.3212 11.7991C14.1621 11.7991 13.923 11.612 13.923 11.076V6.06977C13.923 5.42696 13.7477 5.14084 13.218 5.14084H9.28551C8.88826 5.14084 8.64914 5.43872 8.64914 5.72191C8.64914 6.33042 9.55034 6.47152 9.64275 8.18435V11.9059C9.64275 12.7222 9.497 12.8701 9.17881 12.8701C8.33096 12.8701 6.26849 9.72375 5.04434 6.12366C4.80713 5.42304 4.56707 5.14084 3.92784 5.14084H1.42525C0.710768 5.14084 0.567871 5.48086 0.567871 5.85615C0.567871 6.52443 1.41572 9.84427 4.51658 14.2351C6.58381 17.2336 9.49414 18.8592 12.1453 18.8592C13.7353 18.8592 13.9316 18.4986 13.9316 17.8764V15.6099C13.9316 14.8877 14.0821 14.7437 14.586 14.7437C14.9575 14.7437 15.593 14.9318 17.0772 16.3771C18.7729 18.091 19.052 18.8592 20.0066 18.8592H22.5072C23.2217 18.8592 23.5799 18.4986 23.3742 17.7852C23.1474 17.0758 22.3377 16.0459 21.264 14.824C20.681 14.1283 19.8065 13.3787 19.5407 13.0034C19.1701 12.5223 19.2759 12.3077 19.5407 11.8795C19.5407 11.8795 22.5892 7.54253 22.9064 6.06977H22.9074Z"/>
+</svg>
+                  </div></a><a class="social__link" href="#" target="_blank"> 
+                  <div class="social__img header__social-img_wp"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.00996 20.9935L4.22588 16.5255C3.42468 15.1521 3.00375 13.59 3.00636 12C3.00636 7.03285 7.03277 3.00644 11.9999 3.00644C16.967 3.00644 20.9934 7.03285 20.9934 12C20.9934 16.9671 16.967 20.9935 11.9999 20.9935C10.4105 20.9961 8.84915 20.5755 7.47615 19.7749L3.00996 20.9935ZM8.75413 7.78021C8.63799 7.78742 8.5245 7.81801 8.42047 7.87015C8.32291 7.92539 8.23385 7.99446 8.15606 8.0752C8.04814 8.17683 7.98698 8.26496 7.92133 8.3504C7.58894 8.78299 7.41015 9.31399 7.41319 9.85952C7.41499 10.3002 7.53011 10.7292 7.70998 11.1303C8.07782 11.9415 8.68308 12.8004 9.48261 13.5963C9.67507 13.7879 9.86303 13.9804 10.0654 14.1593C11.0577 15.033 12.2403 15.6631 13.5189 15.9994L14.0306 16.0777C14.197 16.0866 14.3634 16.0741 14.5307 16.066C14.7926 16.0524 15.0484 15.9815 15.2798 15.8582C15.3976 15.7975 15.5126 15.7315 15.6243 15.6603C15.6243 15.6603 15.663 15.6352 15.7367 15.5794C15.8581 15.4895 15.9328 15.4256 16.0335 15.3204C16.1081 15.2431 16.1729 15.1522 16.2224 15.0488C16.2925 14.9022 16.3627 14.6225 16.3914 14.3896C16.413 14.2115 16.4067 14.1144 16.404 14.0541C16.4004 13.9579 16.3204 13.858 16.2332 13.8158L15.7097 13.581C15.7097 13.581 14.9273 13.2402 14.4497 13.0225C14.3994 13.0006 14.3454 12.9881 14.2906 12.9857C14.229 12.9794 14.1668 12.9863 14.1082 13.006C14.0496 13.0257 13.9958 13.0577 13.9506 13.0999V13.0981C13.9461 13.0981 13.8858 13.1494 13.2356 13.9372C13.1983 13.9873 13.1469 14.0252 13.0879 14.0461C13.029 14.0669 12.9652 14.0697 12.9046 14.0541C12.8461 14.0384 12.7886 14.0186 12.7329 13.9947C12.6214 13.948 12.5827 13.93 12.5062 13.8967L12.5017 13.8949C11.9872 13.6703 11.5109 13.3669 11.0898 12.9956C10.9764 12.8966 10.8712 12.7887 10.7633 12.6844C10.4095 12.3455 10.1011 11.9622 9.84595 11.544L9.79288 11.4586C9.75477 11.4012 9.72396 11.3392 9.70115 11.2742C9.66698 11.142 9.75601 11.0359 9.75601 11.0359C9.75601 11.0359 9.97456 10.7966 10.0762 10.6671C10.1608 10.5595 10.2398 10.4475 10.3127 10.3317C10.4188 10.1608 10.4521 9.98543 10.3964 9.84962C10.1445 9.23447 9.88372 8.62201 9.61571 8.01404C9.56265 7.89353 9.40526 7.80719 9.26227 7.7901C9.2137 7.78471 9.16514 7.77931 9.11657 7.77571C8.99579 7.76971 8.87477 7.77181 8.75413 7.78021Z"/>
+</svg>
+                  </div></a><a class="social__link" href="#" target="_blank"> 
+                  <div class="social__img header__social-img_tg"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.1393 4.17952L2.92144 10.7094C2.22856 11.0135 1.99421 11.6224 2.75397 11.9529L7.1711 13.3335L17.8512 6.84207C18.4343 6.43456 19.0313 6.54322 18.5176 6.99152L9.34486 15.1595L9.05672 18.6162C9.3236 19.1499 9.81227 19.1524 10.124 18.8871L12.6618 16.5255L17.0081 19.7264C18.0176 20.3141 18.5669 19.9348 18.7841 18.8576L21.6349 5.58175C21.9309 4.25573 21.4261 3.67147 20.1393 4.17952Z" fill="#F40004"/>
+</svg>
+                  </div></a></div>
+            </div>
+            <button class="burger-close" data-close aria-label="Закрыть меню" aria-expanded="true"></button>
           </div>
+          <button class="burger" data-burger aria-label="Открыть меню" aria-expanded="false"><span class="burger__line"></span></button>
         </div>
       </div>
     </header>
     <main class="main">
       <section class="hero">
         <div class="hero__wrap container">
-          <div class="hero__bloc-info">
-            <h1 class="hero__title">Профессиональный <span>сервис по обслуживанию Mitsubishi</span> в Санкт-Петербурге</h1>
-            <div class="hero__descr">Наша цель&nbsp;— достичь успеха благодаря высокому качеству оказываемых услуг. Мы&nbsp;всегда относимся с&nbsp;пониманием к&nbsp;клиентам нашего сервиса и&nbsp;стараемся деражать высокую ппланку в&nbsp;своей работе.</div><a class="hero__to-calc" href="#">Калькулятор ТО</a>
-            <div class="hero__blog"><a class="hero__link-blogsss" href="#">Читать новости из нашего блога</a>
-              <div class="hero__blog-img-wrap"><a class="hero__blog-img" href="#"> 
-                  <picture class="picture">
-                    <source srcset="img/hero/car-service_01.avif" type="image/avif"/>
-                    <source srcset="img/hero/car-service_01.webp" type="image/webp"/>
-                    <source srcset="img/hero/car-service_01.jpg" type="image/jpg"/><img src="img/hero/car-service_01.jpg" alt="Сервис Mitsubishi"/>
-                  </picture></a><a class="hero__blog-img" href="#"> 
-                  <picture class="picture">
-                    <source srcset="img/hero/car-service_02.avif" type="image/avif"/>
-                    <source srcset="img/hero/car-service_02.webp" type="image/webp"/>
-                    <source srcset="img/hero/car-service_02.jpg" type="image/jpg"/><img src="img/hero/car-service_02.jpg" alt="Автосервис Mitsubishi"/>
-                  </picture></a><a class="hero__blog-img" href="#"> 
-                  <picture class="picture">
-                    <source srcset="img/hero/car-service_03.avif" type="image/avif"/>
-                    <source srcset="img/hero/car-service_03.webp" type="image/webp"/>
-                    <source srcset="img/hero/car-service_03.jpg" type="image/jpg"/><img src="img/hero/car-service_03.jpg" alt="Ремонт митсубиши"/>
-                  </picture></a></div>
+          <div class="hero__bloc">
+            <div class="hero__bloc-info">
+              <h1 class="hero__title">Профессиональный <span>сервис<br> по обслуживанию Mitsubishi</span> в Санкт-Петербурге</h1>
+              <div class="hero__descr">Наша цель&nbsp;— достичь успеха благодаря высокому качеству оказываемых услуг. Мы&nbsp;всегда относимся с&nbsp;пониманием к&nbsp;клиентам нашего сервиса и&nbsp;стараемся деражать высокую ппланку в&nbsp;своей работе.</div><a class="hero__to-calc" href="#">Калькулятор ТО</a>
+            </div>
+            <div class="hero__bloc-visually">
+              <div class="hero__img">
+                <picture class="picture">
+                  <source srcset="img/hero/mitsubishi-outlander.avif" type="image/avif"/>
+                  <source srcset="img/hero/mitsubishi-outlander.webp" type="image/webp"/>
+                  <source srcset="img/hero/mitsubishi-outlander.png" type="image/png"/><img src="img/hero/mitsubishi-outlander.png" alt="mitsubishi-outlander"/>
+                </picture>
+                <div class="hero__services hero__services_item-1">Диагностика и ремонт двигателя</div>
+                <div class="hero__services hero__services_item-2">Техническое обслуживание автомобилей</div>
+                <div class="hero__services hero__services_item-3">Ремонт подвески<br> и ходовой части</div>
+              </div>
             </div>
           </div>
-          <div class="hero__bloc-visually">
-            <div class="hero__img">
-              <picture class="picture">
-                <source srcset="img/hero/mitsubishi-outlander.avif" type="image/avif"/>
-                <source srcset="img/hero/mitsubishi-outlander.webp" type="image/webp"/>
-                <source srcset="img/hero/mitsubishi-outlander.png" type="image/png"/><img src="img/hero/mitsubishi-outlander.png" alt="mitsubishi-outlander"/>
-              </picture>
-              <div class="hero__services hero__services_item-1">Диагностика и ремонт двигателя</div>
-              <div class="hero__services hero__services_item-2">Техническое обслуживание автомобилей</div>
-              <div class="hero__services hero__services_item-3">Ремонт подвески<br> и ходовой части</div>
-            </div>
+          <div class="hero__blog"><a class="hero__link-blogs" href="#">Читать новости из нашего блога</a>
+            <div class="hero__blog-img-wrap"><a class="hero__blog-img" href="#"> 
+                <picture class="picture">
+                  <source srcset="img/hero/car-service_01.avif" type="image/avif"/>
+                  <source srcset="img/hero/car-service_01.webp" type="image/webp"/>
+                  <source srcset="img/hero/car-service_01.jpg" type="image/jpg"/><img src="img/hero/car-service_01.jpg" alt="Сервис Mitsubishi"/>
+                </picture></a><a class="hero__blog-img" href="#"> 
+                <picture class="picture">
+                  <source srcset="img/hero/car-service_02.avif" type="image/avif"/>
+                  <source srcset="img/hero/car-service_02.webp" type="image/webp"/>
+                  <source srcset="img/hero/car-service_02.jpg" type="image/jpg"/><img src="img/hero/car-service_02.jpg" alt="Автосервис Mitsubishi"/>
+                </picture></a><a class="hero__blog-img" href="#"> 
+                <picture class="picture">
+                  <source srcset="img/hero/car-service_03.avif" type="image/avif"/>
+                  <source srcset="img/hero/car-service_03.webp" type="image/webp"/>
+                  <source srcset="img/hero/car-service_03.jpg" type="image/jpg"/><img src="img/hero/car-service_03.jpg" alt="Ремонт митсубиши"/>
+                </picture></a></div>
           </div>
         </div>
       </section>
@@ -80,11 +98,11 @@
           </div>
           <div class="services__descr">Мы&nbsp;искренне заботимся о&nbsp;каждом автомобиле, ремонтируя его&nbsp;с&nbsp;таким&nbsp;же&nbsp;вниманием, как&nbsp;если&nbsp;бы&nbsp;это&nbsp;был&nbsp;наш собственный транспорт.</div>
           <ul class="services__list">
-            <li class="services__list-item"><a class="services__item-linc" href="#">Диагностика<br> и ремонт трансмиссии</a><span class="services__linc-detailed">Подробнее</span></li>
-            <li class="services__list-item"><a class="services__item-linc" href="#">Шиномонтаж</a><span class="services__linc-detailed">Подробнее</span></li>
-            <li class="services__list-item"><a class="services__item-linc" href="#">Диагностика и ремонт ходовой части</a><span class="services__linc-detailed">Подробнее</span></li>
-            <li class="services__list-item"><a class="services__item-linc" href="#">Компьютерная диагностика</a><span class="services__linc-detailed">Подробнее</span></li>
-            <li class="services__list-item"><a class="services__item-linc" href="#">Обслуживание тормозной системы</a><span class="services__linc-detailed">Подробнее</span></li>
+            <li class="services__list-item services__list-item_des"><a class="services__item-linc" href="#">Диагностика<br> и ремонт трансмиссии</a><span class="services__linc-detailed">Подробнее</span></li>
+            <li class="services__list-item services__list-item_des"><a class="services__item-linc" href="#">Шиномонтаж</a><span class="services__linc-detailed">Подробнее</span></li>
+            <li class="services__list-item services__list-item_des"><a class="services__item-linc" href="#">Диагностика и ремонт ходовой части</a><span class="services__linc-detailed">Подробнее</span></li>
+            <li class="services__list-item services__list-item_des"><a class="services__item-linc" href="#">Компьютерная диагностика</a><span class="services__linc-detailed">Подробнее</span></li>
+            <li class="services__list-item services__list-item_des"><a class="services__item-linc" href="#">Обслуживание тормозной системы</a><span class="services__linc-detailed">Подробнее</span></li>
             <li class="services__list-item"><a class="services__item-linc" href="#">Техническое обслуживание</a><span class="services__linc-detailed">Подробнее</span></li>
             <li class="services__list-item services__list-item_to-price"><a class="services__item-linc_to-price" href="#">Смотреть прайс</a></li>
             <li class="services__list-item"><a class="services__item-linc" href="#">Ремонт двигателя</a><span class="services__linc-detailed">Подробнее</span></li>
@@ -208,13 +226,13 @@
               </div>
               <button class="swiper-button-prev reviews__button-prev"></button>
               <button class="swiper-button-next reviews__button-next"></button>
-              <div class="swiper-pagination"></div>
+              <div class="swiper-pagination reviews__swiper-pagination"></div>
             </div>
           </div>
         </div>
       </section>
-      <section class="system">
-        <div class="system__wrap container">
+      <section class="system container">
+        <div class="system__wrap">
           <div class="system__slogan-wrap"> 
             <div class="system__slogan-text"> 
               <div class="system__slogan-item">Качество</div>
@@ -223,18 +241,122 @@
             </div>
             <div class="system__slogan-img"> 
               <picture class="picture">
-                <source srcset="img/name.avif" type="image/avif"/>
-                <source srcset="img/name.webp" type="image/webp"/>
-                <source srcset="img/name.jpg" type="image/jpg"/><img src="img/name.jpg" alt="белый аутлендер"/>
+                <source srcset="img/pictures/white-outlander.avif" type="image/avif"/>
+                <source srcset="img/pictures/white-outlander.webp" type="image/webp"/>
+                <source srcset="img/pictures/white-outlander.jpg" type="image/jpg"/><img src="img/pictures/white-outlander.jpg" alt="белый аутлендер"/>
+              </picture>
+            </div>
+          </div>
+          <div class="system__explanation">
+            <div class="system__explanation-item system__explanation-item_first">[ вне конкуренции ]</div>
+            <div class="system__explanation-item system__explanation-item_second">Являемся профессионалами в&nbsp;своём деле. Проводим диагностику и&nbsp;ремонт даже&nbsp;в&nbsp;самых сложных случаях.</div>
+            <div class="system__explanation-item system__explanation-item_third">В&nbsp;своей работе мы&nbsp;используем только профессиональное оборудование, что&nbsp;помогает нам&nbsp;держать темп и&nbsp;не&nbsp;ронять качество</div>
+          </div>
+        </div>
+      </section>
+      <section class="unexpected">
+        <div class="unexpected unexpected__wrap container">
+          <div class="title-section">
+            <h3 class="title-section__title"><span>Мы ценим клиентов</span> нашего сервиса</h3>
+            <div class="title-section__descr">[ акции ]</div>
+          </div>
+          <div class="unexpected__descr">Стараемся сохранить лояльность к&nbsp;кажому клиенту, поэтому систематично дарим скидки и&nbsp;проводим акции</div>
+          <div class="unexpected__content">
+            <div class="unexpected__content-item unexpectde-item unexpectde-item_first">
+              <div class="unexpectde-item__title">Промокоды на обслуживание в нашем сервисе </div>
+              <div class="unexpectde-item__descr">Хотим сделать обслуживание вашего автомобиля еще более приятным. При посещении нашего сервиса скажите промокод и получите скидку.</div><a class="unexpectde-item__link" href="#"> </a>
+              <div class="social unexpectde__social"><a class="social__link" href="https://vk.com/lancer_service" target="_blank"> 
+                  <div class="social__img">
+                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.9074 6.06977C23.0655 5.53475 22.9074 5.14084 22.15 5.14084H19.6493C19.013 5.14084 18.7195 5.48086 18.5604 5.85615C18.5604 5.85615 17.2887 8.98786 15.4872 11.0221C14.9042 11.612 14.6394 11.7991 14.3212 11.7991C14.1621 11.7991 13.923 11.612 13.923 11.076V6.06977C13.923 5.42696 13.7477 5.14084 13.218 5.14084H9.28551C8.88826 5.14084 8.64914 5.43872 8.64914 5.72191C8.64914 6.33042 9.55034 6.47152 9.64275 8.18435V11.9059C9.64275 12.7222 9.497 12.8701 9.17881 12.8701C8.33096 12.8701 6.26849 9.72375 5.04434 6.12366C4.80713 5.42304 4.56707 5.14084 3.92784 5.14084H1.42525C0.710768 5.14084 0.567871 5.48086 0.567871 5.85615C0.567871 6.52443 1.41572 9.84427 4.51658 14.2351C6.58381 17.2336 9.49414 18.8592 12.1453 18.8592C13.7353 18.8592 13.9316 18.4986 13.9316 17.8764V15.6099C13.9316 14.8877 14.0821 14.7437 14.586 14.7437C14.9575 14.7437 15.593 14.9318 17.0772 16.3771C18.7729 18.091 19.052 18.8592 20.0066 18.8592H22.5072C23.2217 18.8592 23.5799 18.4986 23.3742 17.7852C23.1474 17.0758 22.3377 16.0459 21.264 14.824C20.681 14.1283 19.8065 13.3787 19.5407 13.0034C19.1701 12.5223 19.2759 12.3077 19.5407 11.8795C19.5407 11.8795 22.5892 7.54253 22.9064 6.06977H22.9074Z"/>
+</svg>
+                  </div></a><a class="social__link" href="#" target="_blank"> 
+                  <div class="social__img">
+                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.00996 20.9935L4.22588 16.5255C3.42468 15.1521 3.00375 13.59 3.00636 12C3.00636 7.03285 7.03277 3.00644 11.9999 3.00644C16.967 3.00644 20.9934 7.03285 20.9934 12C20.9934 16.9671 16.967 20.9935 11.9999 20.9935C10.4105 20.9961 8.84915 20.5755 7.47615 19.7749L3.00996 20.9935ZM8.75413 7.78021C8.63799 7.78742 8.5245 7.81801 8.42047 7.87015C8.32291 7.92539 8.23385 7.99446 8.15606 8.0752C8.04814 8.17683 7.98698 8.26496 7.92133 8.3504C7.58894 8.78299 7.41015 9.31399 7.41319 9.85952C7.41499 10.3002 7.53011 10.7292 7.70998 11.1303C8.07782 11.9415 8.68308 12.8004 9.48261 13.5963C9.67507 13.7879 9.86303 13.9804 10.0654 14.1593C11.0577 15.033 12.2403 15.6631 13.5189 15.9994L14.0306 16.0777C14.197 16.0866 14.3634 16.0741 14.5307 16.066C14.7926 16.0524 15.0484 15.9815 15.2798 15.8582C15.3976 15.7975 15.5126 15.7315 15.6243 15.6603C15.6243 15.6603 15.663 15.6352 15.7367 15.5794C15.8581 15.4895 15.9328 15.4256 16.0335 15.3204C16.1081 15.2431 16.1729 15.1522 16.2224 15.0488C16.2925 14.9022 16.3627 14.6225 16.3914 14.3896C16.413 14.2115 16.4067 14.1144 16.404 14.0541C16.4004 13.9579 16.3204 13.858 16.2332 13.8158L15.7097 13.581C15.7097 13.581 14.9273 13.2402 14.4497 13.0225C14.3994 13.0006 14.3454 12.9881 14.2906 12.9857C14.229 12.9794 14.1668 12.9863 14.1082 13.006C14.0496 13.0257 13.9958 13.0577 13.9506 13.0999V13.0981C13.9461 13.0981 13.8858 13.1494 13.2356 13.9372C13.1983 13.9873 13.1469 14.0252 13.0879 14.0461C13.029 14.0669 12.9652 14.0697 12.9046 14.0541C12.8461 14.0384 12.7886 14.0186 12.7329 13.9947C12.6214 13.948 12.5827 13.93 12.5062 13.8967L12.5017 13.8949C11.9872 13.6703 11.5109 13.3669 11.0898 12.9956C10.9764 12.8966 10.8712 12.7887 10.7633 12.6844C10.4095 12.3455 10.1011 11.9622 9.84595 11.544L9.79288 11.4586C9.75477 11.4012 9.72396 11.3392 9.70115 11.2742C9.66698 11.142 9.75601 11.0359 9.75601 11.0359C9.75601 11.0359 9.97456 10.7966 10.0762 10.6671C10.1608 10.5595 10.2398 10.4475 10.3127 10.3317C10.4188 10.1608 10.4521 9.98543 10.3964 9.84962C10.1445 9.23447 9.88372 8.62201 9.61571 8.01404C9.56265 7.89353 9.40526 7.80719 9.26227 7.7901C9.2137 7.78471 9.16514 7.77931 9.11657 7.77571C8.99579 7.76971 8.87477 7.77181 8.75413 7.78021Z"/>
+</svg>
+                  </div></a><a class="social__link" href="#" target="_blank"> 
+                  <div class="social__img">
+                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.1393 4.17952L2.92144 10.7094C2.22856 11.0135 1.99421 11.6224 2.75397 11.9529L7.1711 13.3335L17.8512 6.84207C18.4343 6.43456 19.0313 6.54322 18.5176 6.99152L9.34486 15.1595L9.05672 18.6162C9.3236 19.1499 9.81227 19.1524 10.124 18.8871L12.6618 16.5255L17.0081 19.7264C18.0176 20.3141 18.5669 19.9348 18.7841 18.8576L21.6349 5.58175C21.9309 4.25573 21.4261 3.67147 20.1393 4.17952Z"/>
+</svg>
+                  </div></a></div>
+              <picture class="picture">
+                <source srcset="img/pictures/outlander.avif" type="image/avif"/>
+                <source srcset="img/pictures/outlander.webp" type="image/webp"/>
+                <source srcset="img/pictures/outlander.jpg" type="image/jpg"/><img src="img/pictures/outlander.jpg" alt="аутлендер на бездорожье"/>
+              </picture>
+            </div>
+            <div class="unexpected__content-item unexpectde-item unexpectde-item_second">
+              <div class="unexpectde-item__title">Промокоды на обслуживание в нашем сервисе </div>
+              <div class="unexpectde-item__descr">Хотим сделать обслуживание вашего автомобиля еще более приятным. При посещении нашего сервиса скажите промокод и получите скидку.</div><a class="unexpectde-item__link" href="#"> </a>
+              <picture class="picture">
+                <source srcset="img/pictures/servis-kluchi.avif" type="image/avif"/>
+                <source srcset="img/pictures/servis-kluchi.webp" type="image/webp"/>
+                <source srcset="img/pictures/servis-kluchi.jpg" type="image/jpg"/><img src="img/pictures/servis-kluchi.jpg" alt="гаечные ключи"/>
+              </picture>
+            </div>
+            <div class="unexpected__content-item unexpectde-item unexpectde-item_third">
+              <div class="unexpectde-item__title">Промокоды на обслуживание в нашем сервисе </div>
+              <div class="unexpectde-item__descr">Хотим сделать обслуживание вашего автомобиля еще более приятным. При посещении нашего сервиса скажите промокод и получите скидку.</div><a class="unexpectde-item__link" href="#"> </a>
+              <picture class="picture">
+                <source srcset="img/pictures/avtomaster.avif" type="image/avif"/>
+                <source srcset="img/pictures/avtomaster.webp" type="image/webp"/>
+                <source srcset="img/pictures/avtomaster.jpg" type="image/jpg"/><img src="img/pictures/avtomaster.jpg" alt="проверка подкопотного пространства"/>
               </picture>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer _container">
-      <div class="container">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quidem commodi distinctio quos nesciunt illo totam animi? Qui, iusto nostrum odit assumenda blanditiis officia aperiam, eum earum sint dolor reiciendis.</p>
+    <footer class="footer">
+      <div class="footer__wrap container">
+        <div class="title-section">
+          <h4 class="title-section__title"><span>Свяжитесь </span>с нами</h4>
+          <div class="title-section__descr">[ контакты ]</div>
+        </div>
+        <div class="footer__descr">Если&nbsp;у&nbsp;вас остались вопросы или&nbsp;вы&nbsp;хотите записаться на&nbsp;диагностику свяжитесь с&nbsp;нами любым удобным способом указанным на&nbsp;сайте</div>
+        <div class="footer__data">
+          <div class="footer__content"> 
+            <div class="footer__navigation">
+              <nav class="footer__nav nav-footer">
+                <ul class="nav-footer__list"> 
+                  <li class="nav-footer__item"><a class="nav-footer__link" href="#">ТО Регламент</a></li>
+                  <li class="nav-footer__item"><a class="nav-footer__link" href="#">Услуги</a></li>
+                  <li class="nav-footer__item"><a class="nav-footer__link" href="#">Прайс</a></li>
+                  <li class="nav-footer__item"><a class="nav-footer__link" href="#">О нас</a></li>
+                  <li class="nav-footer__item"><a class="nav-footer__link" href="#">Акции</a></li>
+                  <li class="nav-footer__item"><a class="nav-footer__link" href="#">Блог</a></li>
+                </ul>
+              </nav>
+              <div class="footer__connectivity"><a class="footer__phone" href="tel:+79219048150">+7 (921) 904-81-50</a>
+                <div class="social"><a class="social__link" href="https://vk.com/lancer_service" target="_blank"> 
+                    <div class="social__img">
+                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.9074 6.06977C23.0655 5.53475 22.9074 5.14084 22.15 5.14084H19.6493C19.013 5.14084 18.7195 5.48086 18.5604 5.85615C18.5604 5.85615 17.2887 8.98786 15.4872 11.0221C14.9042 11.612 14.6394 11.7991 14.3212 11.7991C14.1621 11.7991 13.923 11.612 13.923 11.076V6.06977C13.923 5.42696 13.7477 5.14084 13.218 5.14084H9.28551C8.88826 5.14084 8.64914 5.43872 8.64914 5.72191C8.64914 6.33042 9.55034 6.47152 9.64275 8.18435V11.9059C9.64275 12.7222 9.497 12.8701 9.17881 12.8701C8.33096 12.8701 6.26849 9.72375 5.04434 6.12366C4.80713 5.42304 4.56707 5.14084 3.92784 5.14084H1.42525C0.710768 5.14084 0.567871 5.48086 0.567871 5.85615C0.567871 6.52443 1.41572 9.84427 4.51658 14.2351C6.58381 17.2336 9.49414 18.8592 12.1453 18.8592C13.7353 18.8592 13.9316 18.4986 13.9316 17.8764V15.6099C13.9316 14.8877 14.0821 14.7437 14.586 14.7437C14.9575 14.7437 15.593 14.9318 17.0772 16.3771C18.7729 18.091 19.052 18.8592 20.0066 18.8592H22.5072C23.2217 18.8592 23.5799 18.4986 23.3742 17.7852C23.1474 17.0758 22.3377 16.0459 21.264 14.824C20.681 14.1283 19.8065 13.3787 19.5407 13.0034C19.1701 12.5223 19.2759 12.3077 19.5407 11.8795C19.5407 11.8795 22.5892 7.54253 22.9064 6.06977H22.9074Z"/>
+</svg>
+                    </div></a><a class="social__link" href="#" target="_blank"> 
+                    <div class="social__img">
+                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.00996 20.9935L4.22588 16.5255C3.42468 15.1521 3.00375 13.59 3.00636 12C3.00636 7.03285 7.03277 3.00644 11.9999 3.00644C16.967 3.00644 20.9934 7.03285 20.9934 12C20.9934 16.9671 16.967 20.9935 11.9999 20.9935C10.4105 20.9961 8.84915 20.5755 7.47615 19.7749L3.00996 20.9935ZM8.75413 7.78021C8.63799 7.78742 8.5245 7.81801 8.42047 7.87015C8.32291 7.92539 8.23385 7.99446 8.15606 8.0752C8.04814 8.17683 7.98698 8.26496 7.92133 8.3504C7.58894 8.78299 7.41015 9.31399 7.41319 9.85952C7.41499 10.3002 7.53011 10.7292 7.70998 11.1303C8.07782 11.9415 8.68308 12.8004 9.48261 13.5963C9.67507 13.7879 9.86303 13.9804 10.0654 14.1593C11.0577 15.033 12.2403 15.6631 13.5189 15.9994L14.0306 16.0777C14.197 16.0866 14.3634 16.0741 14.5307 16.066C14.7926 16.0524 15.0484 15.9815 15.2798 15.8582C15.3976 15.7975 15.5126 15.7315 15.6243 15.6603C15.6243 15.6603 15.663 15.6352 15.7367 15.5794C15.8581 15.4895 15.9328 15.4256 16.0335 15.3204C16.1081 15.2431 16.1729 15.1522 16.2224 15.0488C16.2925 14.9022 16.3627 14.6225 16.3914 14.3896C16.413 14.2115 16.4067 14.1144 16.404 14.0541C16.4004 13.9579 16.3204 13.858 16.2332 13.8158L15.7097 13.581C15.7097 13.581 14.9273 13.2402 14.4497 13.0225C14.3994 13.0006 14.3454 12.9881 14.2906 12.9857C14.229 12.9794 14.1668 12.9863 14.1082 13.006C14.0496 13.0257 13.9958 13.0577 13.9506 13.0999V13.0981C13.9461 13.0981 13.8858 13.1494 13.2356 13.9372C13.1983 13.9873 13.1469 14.0252 13.0879 14.0461C13.029 14.0669 12.9652 14.0697 12.9046 14.0541C12.8461 14.0384 12.7886 14.0186 12.7329 13.9947C12.6214 13.948 12.5827 13.93 12.5062 13.8967L12.5017 13.8949C11.9872 13.6703 11.5109 13.3669 11.0898 12.9956C10.9764 12.8966 10.8712 12.7887 10.7633 12.6844C10.4095 12.3455 10.1011 11.9622 9.84595 11.544L9.79288 11.4586C9.75477 11.4012 9.72396 11.3392 9.70115 11.2742C9.66698 11.142 9.75601 11.0359 9.75601 11.0359C9.75601 11.0359 9.97456 10.7966 10.0762 10.6671C10.1608 10.5595 10.2398 10.4475 10.3127 10.3317C10.4188 10.1608 10.4521 9.98543 10.3964 9.84962C10.1445 9.23447 9.88372 8.62201 9.61571 8.01404C9.56265 7.89353 9.40526 7.80719 9.26227 7.7901C9.2137 7.78471 9.16514 7.77931 9.11657 7.77571C8.99579 7.76971 8.87477 7.77181 8.75413 7.78021Z"/>
+</svg>
+                    </div></a><a class="social__link" href="#" target="_blank"> 
+                    <div class="social__img">
+                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.1393 4.17952L2.92144 10.7094C2.22856 11.0135 1.99421 11.6224 2.75397 11.9529L7.1711 13.3335L17.8512 6.84207C18.4343 6.43456 19.0313 6.54322 18.5176 6.99152L9.34486 15.1595L9.05672 18.6162C9.3236 19.1499 9.81227 19.1524 10.124 18.8871L12.6618 16.5255L17.0081 19.7264C18.0176 20.3141 18.5669 19.9348 18.7841 18.8576L21.6349 5.58175C21.9309 4.25573 21.4261 3.67147 20.1393 4.17952Z"/>
+</svg>
+                    </div></a></div>
+              </div>
+              <div class="footer__location">Санкт-Петербург<br> ул. Шоссейная улица, 1Г</div>
+            </div>
+            <div class="footer__content-botom"><a class="footer__logo" href="#"> <img class="footer__logo-img" src="img/logo/logo.svg" alt="логотип - территория mitsubishi"></a>
+              <div class="footer__external-link"> <a class="footer__external-link-item" href="#" target="_blank" rel="noopener noreferrer">Разработка сайта</a>
+                <div class="footer__external-link-item">Все права защищены 2024</div><a class="footer__external-link-item" href="#" target="_blank" rel="noopener noreferrer">Политика конфиденциальности</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad8d027489055c02744dadf62d3b800893c7bc3623060630a3560c7c9964bec7e&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe></div>
+        </div>
       </div>
     </footer>
   </body>
