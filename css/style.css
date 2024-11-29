@@ -2287,7 +2287,6 @@ ul.unexpectde-item__descr {
   }
   .unexpectde-item_first > .unexpectde-item__title {
     max-width: 300px;
-    font-size: 20px;
   }
   .unexpectde-item__title {
     width: calc(100% - 70px);
