@@ -272,8 +272,7 @@ pre.code {
 }
 
 html,
-body,
-.wrapper {
+body {
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,6 +282,9 @@ body,
       -ms-flex-direction: column;
           flex-direction: column;
   overflow-x: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 a {
@@ -2294,4 +2296,113 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+.hero__to-calc {
+  pointer-events: none;
+  cursor: default;
+  background-color: transparent;
+}
+
+.services__item-linc_to-price {
+  color: transparent;
+  pointer-events: none;
+  cursor: default;
+}
+
+a.footer__external-link-item {
+  display: none;
+}
+
+.promo-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.promo-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.promo-header h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.promo-header .date {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.promo-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #f00;
+  border-radius: 8px;
+}
+
+.promo-item h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #f00;
+}
+
+.promo-item p {
+  margin: 10px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.promo-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #f00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.promo-item .promo-code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.promo-item .promo-code input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.additional-info {
+  margin-top: 20px;
+}
+
+.additional-info h4 {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.additional-info p {
+  font-size: 0.9em;
+  color: #555;
 }

@@ -5,7 +5,10 @@ let advantagesSwiper = new Swiper(advantagesSlider, {
 	loop: true,
 	wrapperClass: 'swiper-advantages__wrapper',
 	slideClass: 'swiper-advantages__slide',
-
+	autoplay: {
+		delay: 3200,
+		disableOnInteraction: false,
+	},
 	navigation: {
 		nextEl: '.advantages__button-next',
 		prevEl: '.advantages__button-prev',
@@ -43,18 +46,25 @@ let reviewsSwiper = new Swiper(reviewsSlider, {
 		}
 	},
 });
+// swiper reviews
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+// // GSAP-BTN
+// let btnLarge = document.querySelectorAll('.move-btn-large').forEach(btn => {
+// 	btn.addEventListener('mousemove', (e) => {
+// 		let x = e.offsetX;
+// 		let y = e.offsetY;
+// 		let btnWidht = btn.clientWidth;
+// 		let btnHeight = btn.clientHeight;
+// 		let transX = (x - btnWidht / 10);
+// 		let transY = (y - btnHeight / 10);
+// 		btn.style.transform = `translateX(${transX}px) translateY(${transY}px)`
+// 	})
+// 	btn.addEventListener('mouseout', (e) => {
+// 		btn.style.transform = '';
+// 	})
+// })
+// // GSAP-BTN
 
