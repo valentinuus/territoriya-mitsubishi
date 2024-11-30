@@ -70,7 +70,7 @@ burger?.addEventListener('click', () => {
 	nav?.classList.toggle('nav--visible');
 });
 
-closeMenu?.addEventListener('click', () =>{
+closeMenu?.addEventListener('click', () => {
 	body.classList.remove('stop-scroll');
 	nav?.classList.remove('nav--visible');
 	burger?.classList.remove('burger--active');
@@ -83,3 +83,12 @@ navItems.forEach(el => {
 		nav?.classList.remove('nav--visible');
 	});
 });
+
+
+
+VK.Widgets.Group("vk_groups", {mode: 5, no_cover: 1, width: 300, height: 300, color1: "FFFFFF", color2: "000000", color3: "5181B8"}, 36573499);
+
+
+
+
+
