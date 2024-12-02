@@ -6,7 +6,7 @@ let advantagesSwiper = new Swiper(advantagesSlider, {
 	wrapperClass: 'swiper-advantages__wrapper',
 	slideClass: 'swiper-advantages__slide',
 	autoplay: {
-		delay: 3200,
+		delay: 3000,
 		disableOnInteraction: false,
 	},
 	navigation: {
@@ -24,6 +24,10 @@ let reviewsSwiper = new Swiper(reviewsSlider, {
 	spaceBetween: 0,
 	wrapperClass: 'swiper-reviews__wrapper',
 	slideClass: 'swiper-reviews__slide',
+	autoplay: {
+		delay: 1500,
+		disableOnInteraction: false,
+	},
 	navigation: {
 		nextEl: '.reviews__button-next',
 		prevEl: '.reviews__button-prev',
@@ -50,21 +54,4 @@ let reviewsSwiper = new Swiper(reviewsSlider, {
 
 
 
-
-// // GSAP-BTN
-// let btnLarge = document.querySelectorAll('.move-btn-large').forEach(btn => {
-// 	btn.addEventListener('mousemove', (e) => {
-// 		let x = e.offsetX;
-// 		let y = e.offsetY;
-// 		let btnWidht = btn.clientWidth;
-// 		let btnHeight = btn.clientHeight;
-// 		let transX = (x - btnWidht / 10);
-// 		let transY = (y - btnHeight / 10);
-// 		btn.style.transform = `translateX(${transX}px) translateY(${transY}px)`
-// 	})
-// 	btn.addEventListener('mouseout', (e) => {
-// 		btn.style.transform = '';
-// 	})
-// })
-// // GSAP-BTN
 

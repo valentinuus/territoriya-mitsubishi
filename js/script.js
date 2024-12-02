@@ -86,7 +86,7 @@ navItems.forEach(el => {
 
 
 
-VK.Widgets.Group("vk_groups", {mode: 5, no_cover: 1, width: 300, height: 300, color1: "FFFFFF", color2: "000000", color3: "5181B8"}, 36573499);
+VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1, width: 300, height: 300, color1: "FFFFFF", color2: "000000", color3: "5181B8"}, 36573499);
 
 
 
